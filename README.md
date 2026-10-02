@@ -6,6 +6,10 @@ Utilitário local para bloquear o teclado durante a limpeza do Mac. Requer macOS
 
 Abra `LockKeyboard.xcodeproj` no Xcode para inspecionar ou alterar o código.
 
+## Baixar para testar
+
+Baixe `LockKeyboard-macOS-arm64.zip` na raiz deste repositório, descompacte e mova `LockKeyboard.app` para `/Applications`. Requer macOS 13 ou posterior em um Mac com Apple Silicon (M1 ou posterior). Esta build de teste é assinada ad-hoc, não é notarizada pela Apple; o macOS pode exibir um aviso de segurança na primeira abertura.
+
 ## Gerar o app
 
 No Terminal:
