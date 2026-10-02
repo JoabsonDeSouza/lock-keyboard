@@ -18,7 +18,10 @@ Abra `LockKeyboard.xcodeproj` no Xcode para inspecionar ou alterar o código.
 
 ## Baixar para testar
 
-Baixe `LockKeyboard-macOS-arm64.zip` na raiz deste repositório, descompacte e mova `LockKeyboard.app` para `/Applications`. Requer macOS 13 ou posterior em um Mac com Apple Silicon (M1 ou posterior). Esta build de teste é assinada ad-hoc, não é notarizada pela Apple; o macOS pode exibir um aviso de segurança na primeira abertura.
+1. Baixe o arquivo [`LockKeyboard-macOS-arm64.zip`](LockKeyboard-macOS-arm64.zip) e abra-o para descompactar.
+2. Dentro da pasta extraída, localize `LockKeyboard.app` e arraste **esse app** para `/Applications` (Aplicativos). Não arraste o ZIP.
+
+Requer macOS 13 ou posterior em um Mac com Apple Silicon (M1 ou posterior). Esta build de teste é assinada ad-hoc, não é notarizada pela Apple; o macOS pode exibir um aviso de segurança na primeira abertura.
 
 ## Gerar o app
 
