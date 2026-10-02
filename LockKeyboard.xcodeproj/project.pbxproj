@@ -1,0 +1,51 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+		A10000000000000000000001 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000002 /* main.swift */; };
+		A10000000000000000000002 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A10000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10000000000000000000004 /* LockKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000101 /* LockKeyboard-menubar-locked.svg in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000201 /* LockKeyboard-menubar-locked.svg */; };
+		A10000000000000000000102 /* LockKeyboard-menubar-locked.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000202 /* LockKeyboard-menubar-locked.png */; };
+		A10000000000000000000103 /* LockKeyboard-menubar-locked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000203 /* LockKeyboard-menubar-locked@2x.png */; };
+		A10000000000000000000104 /* LockKeyboard-menubar-unlocked.svg in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000204 /* LockKeyboard-menubar-unlocked.svg */; };
+		A10000000000000000000105 /* LockKeyboard-menubar-unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000205 /* LockKeyboard-menubar-unlocked.png */; };
+		A10000000000000000000106 /* LockKeyboard-menubar-unlocked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000206 /* LockKeyboard-menubar-unlocked@2x.png */; };
+		A10000000000000000000107 /* LockKeyboard-locked.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000207 /* LockKeyboard-locked.png */; };
+		A10000000000000000000108 /* LockKeyboard-unlocked.png in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000208 /* LockKeyboard-unlocked.png */; };
+		A10000000000000000000109 /* LockKeyboard.icns in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000209 /* LockKeyboard.icns */; };
+		A10000000000000000000201 /* LockKeyboard-menubar-locked.svg */ = {isa = PBXFileReference; lastKnownFileType = "image.svg+xml"; path = "LockKeyboard-menubar-locked.svg"; sourceTree = "<group>"; };
+		A10000000000000000000202 /* LockKeyboard-menubar-locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-menubar-locked.png"; sourceTree = "<group>"; };
+		A10000000000000000000203 /* LockKeyboard-menubar-locked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-menubar-locked@2x.png"; sourceTree = "<group>"; };
+		A10000000000000000000204 /* LockKeyboard-menubar-unlocked.svg */ = {isa = PBXFileReference; lastKnownFileType = "image.svg+xml"; path = "LockKeyboard-menubar-unlocked.svg"; sourceTree = "<group>"; };
+		A10000000000000000000205 /* LockKeyboard-menubar-unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-menubar-unlocked.png"; sourceTree = "<group>"; };
+		A10000000000000000000206 /* LockKeyboard-menubar-unlocked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-menubar-unlocked@2x.png"; sourceTree = "<group>"; };
+		A10000000000000000000207 /* LockKeyboard-locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-locked.png"; sourceTree = "<group>"; };
+		A10000000000000000000208 /* LockKeyboard-unlocked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LockKeyboard-unlocked.png"; sourceTree = "<group>"; };
+		A10000000000000000000209 /* LockKeyboard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "LockKeyboard.icns"; sourceTree = "<group>"; };
+
+		A10000000000000000000010 /* Sources */ = {isa = PBXGroup; children = (A10000000000000000000011 /* LockKeyboard */,); path = Sources; sourceTree = "<group>"; };
+		A10000000000000000000011 /* LockKeyboard */ = {isa = PBXGroup; children = (A10000000000000000000002 /* main.swift */,); path = LockKeyboard; sourceTree = "<group>"; };
+		A10000000000000000000012 /* Products */ = {isa = PBXGroup; children = (A10000000000000000000004 /* LockKeyboard.app */,); name = Products; sourceTree = "<group>"; };
+		A10000000000000000000013 = {isa = PBXGroup; children = (A10000000000000000000010 /* Sources */, A10000000000000000000003 /* Info.plist */, A10000000000000000000014 /* Resources */, A10000000000000000000012 /* Products */,); sourceTree = "<group>"; };
+		A10000000000000000000014 /* Resources */ = {isa = PBXGroup; children = (A10000000000000000000201 /* LockKeyboard-menubar-locked.svg */, A10000000000000000000202 /* LockKeyboard-menubar-locked.png */, A10000000000000000000203 /* LockKeyboard-menubar-locked@2x.png */, A10000000000000000000204 /* LockKeyboard-menubar-unlocked.svg */, A10000000000000000000205 /* LockKeyboard-menubar-unlocked.png */, A10000000000000000000206 /* LockKeyboard-menubar-unlocked@2x.png */, A10000000000000000000207 /* LockKeyboard-locked.png */, A10000000000000000000208 /* LockKeyboard-unlocked.png */, A10000000000000000000209 /* LockKeyboard.icns */,); path = Resources; sourceTree = "<group>"; };
+
+		A10000000000000000000020 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* main.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000021 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000022 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000101 /* LockKeyboard-menubar-locked.svg in Resources */, A10000000000000000000102 /* LockKeyboard-menubar-locked.png in Resources */, A10000000000000000000103 /* LockKeyboard-menubar-locked@2x.png in Resources */, A10000000000000000000104 /* LockKeyboard-menubar-unlocked.svg in Resources */, A10000000000000000000105 /* LockKeyboard-menubar-unlocked.png in Resources */, A10000000000000000000106 /* LockKeyboard-menubar-unlocked@2x.png in Resources */, A10000000000000000000107 /* LockKeyboard-locked.png in Resources */, A10000000000000000000108 /* LockKeyboard-unlocked.png in Resources */, A10000000000000000000109 /* LockKeyboard.icns in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A10000000000000000000030 /* LockKeyboard */ = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000041 /* Build configuration list for PBXNativeTarget */; buildPhases = (A10000000000000000000020 /* Sources */, A10000000000000000000021 /* Frameworks */, A10000000000000000000022 /* Resources */,); buildRules = (); dependencies = (); name = LockKeyboard; productName = LockKeyboard; productReference = A10000000000000000000004 /* LockKeyboard.app */; productType = "com.apple.product-type.application"; };
+		A10000000000000000000031 /* Project */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {A10000000000000000000030 = {CreatedOnToolsVersion = 16.0; };};}; buildConfigurationList = A10000000000000000000040 /* Build configuration list for PBXProject */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A10000000000000000000013; productRefGroup = A10000000000000000000012 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000030 /* LockKeyboard */,); };
+
+		A10000000000000000000040 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000050 /* Debug */, A10000000000000000000051 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000041 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000052 /* Debug */, A10000000000000000000053 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A10000000000000000000050 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Debug; };
+		A10000000000000000000051 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0;}; name = Release; };
+		A10000000000000000000052 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",); OTHER_SWIFT_FLAGS = "-parse-as-library"; PRODUCT_BUNDLE_IDENTIFIER = local.joabson.LockKeyboard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; MACOSX_DEPLOYMENT_TARGET = 13.0;}; name = Debug; };
+		A10000000000000000000053 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Manual; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Info.plist; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks",); OTHER_SWIFT_FLAGS = "-parse-as-library"; PRODUCT_BUNDLE_IDENTIFIER = local.joabson.LockKeyboard; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; MACOSX_DEPLOYMENT_TARGET = 13.0;}; name = Release; };
+	};
+	rootObject = A10000000000000000000031 /* Project */;
+}
