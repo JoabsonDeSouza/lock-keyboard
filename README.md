@@ -4,13 +4,16 @@ Utilitário local para bloquear o teclado durante a limpeza do Mac. Requer macOS
 
 ## Demonstração
 
-Menu do LockKeyboard na barra de menus:
-
-![Menu do LockKeyboard na barra de menus](docs/images/menubar.png)
-
-Notificação exibida enquanto o teclado está bloqueado:
-
-![Notificação de teclado bloqueado](docs/images/keyboard-locked-notification.jpeg)
+<table>
+  <tr>
+    <th>Menu na barra de menus</th>
+    <th>Notificação de teclado bloqueado</th>
+  </tr>
+  <tr>
+    <td><img src="docs/images/menubar.png" width="180" alt="Menu do LockKeyboard na barra de menus"></td>
+    <td><img src="docs/images/keyboard-locked-notification.jpeg" width="180" alt="Notificação exibida com o teclado bloqueado"></td>
+  </tr>
+</table>
 
 ## Projeto Xcode e app local
 
